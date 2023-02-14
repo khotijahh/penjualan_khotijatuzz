@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    tools:context=".barangAdapter">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvBarang"
+        android:layout_width="394dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="9dp"
+        android:backgroundTint="#E44F4F"
+        android:foregroundTint="#F1EBEB"
+        app:cardBackgroundColor="#C69999"
+        app:cardCornerRadius="20dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="#9F0E1F"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="37dp"
+            android:text="TextView"
+            android:textColor="#ffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/ic_edit"
+            android:layout_width="38dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="312dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <ImageView
+            android:id="@+id/ic_delete"
+            android:layout_width="38dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_delete" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
